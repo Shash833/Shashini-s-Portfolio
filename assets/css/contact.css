@@ -1,0 +1,14 @@
+header {
+    background-color: rgb(156, 33, 54);
+    color: white;
+    padding-left: 25px;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}

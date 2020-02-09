@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(156, 33, 54);
+    color: white;
+    padding-left: 25px;
+}
+
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: white;
+}
+
+
+#main-body {
+    background-color: rgba(128, 128, 128, 0.712);
+}
+
+main {
+    padding: 30px;
+}
+
+h2 {
+}
+
+img {
+    width: 230px;
+    height: 230px;
+}
+
+#text {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
