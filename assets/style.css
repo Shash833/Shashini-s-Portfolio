@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(156, 33, 54);
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+a {
+    color: white;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
