@@ -1,14 +1,38 @@
 header {
-    background-color: rgb(156, 33, 54);
+    background-color:  rgb(78, 110, 112);
     color: white;
     padding-left: 25px;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
 }
 
 a {
     color: white;
 }
 
-nav {
-    padding-left: 10px;
-    padding-right: 10px;
+main {
+    background-color: grey;
+}
+
+#main-body {
+    background-color: white;
+    border-color: lightgray;
+    border-width: 20px;
+    margin: 30px;
+}
+input {
+    width: 100%;
+    background-color: white;
+}
+textarea {
+    width: 100%;
+}
+
+#button {
+    width: 100px;
+    background-color: rgb(100, 159, 163);
 }

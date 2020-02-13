@@ -1,29 +1,27 @@
 header {
-    background-color: rgb(156, 33, 54);
+    background-color: rgb(78, 110, 112);
     color: white;
     padding-left: 25px;
 }
 
-
 nav {
     padding-left: 10px;
     padding-right: 10px;
+    float: right;
 }
 
 a {
     color: white;
 }
 
+main {
+    background-color: grey;
+}
 
 #main-body {
-    background-color: rgba(128, 128, 128, 0.712);
-}
-
-main {
-    padding: 30px;
-}
-
-h2 {
+    background-color: white;
+    opacity: 50%;
+    margin: 30px;
 }
 
 img {
@@ -35,4 +33,9 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     
+}
+
+#footer {
+    background-color:rgb(78, 110, 112) ;
+    width: 100%;
 }

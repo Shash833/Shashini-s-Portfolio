@@ -1,14 +1,46 @@
 header {
-    background-color: rgb(156, 33, 54);
+    background-color:  rgb(78, 110, 112);
     color: white;
     padding-left: 25px;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
 }
 
 a {
     color: white;
 }
 
-nav {
-    padding-left: 10px;
-    padding-right: 10px;
+main {
+    background-color: grey;
+}
+
+#main-body {
+    background-color: white;
+    opacity: 50%;
+    margin: 30px;
+}
+
+#project {
+    height: 300px;
+    width: 400px;
+    Background-color: rgb(34, 69, 73);
+    border-width: 50px;
+    Border-color: black;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+    #project{
+        height: 200px;
+        width: 250px;
+        margin: 25px;
+    }
 }
