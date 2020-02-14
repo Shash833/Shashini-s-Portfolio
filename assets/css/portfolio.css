@@ -1,11 +1,15 @@
 header {
-    background-color:  rgb(78, 110, 112);
+    background-color: rgb(88, 152, 156);
     color: white;
     padding-left: 25px;
+    padding-top: 25px;
+}
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 nav {
-    padding-left: 10px;
     padding-right: 10px;
     float: right;
 }
@@ -15,13 +19,14 @@ a {
 }
 
 main {
-    background-color: grey;
+    background-color:rgb(182, 182, 182);
 }
 
 #main-body {
     background-color: white;
-    opacity: 50%;
     margin: 30px;
+    padding-top: 25px;
+    padding-right: 20px;
 }
 
 #project {
@@ -30,17 +35,47 @@ main {
     Background-color: rgb(34, 69, 73);
     border-width: 50px;
     Border-color: black;
-    margin-left: 70px;
-    margin-bottom: 50px;
-    margin-top: 35px;
+    float: left;
+    margin:50px;
     color: white;
+    position: relative;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#imgLabel {
+    position: absolute;
+    bottom: 0px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    opacity: 75%;
+    height: 60px;
+    width: 100%;
     text-align: center;
 }
 
-@media screen and (max-width: 770px) {
-    #project{
-        height: 200px;
-        width: 250px;
-        margin: 25px;
+footer {
+    background-color:rgb(88, 152, 156) ;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1500px) {
+    #project, img, #image {
+        height: 250px;
+        width: 350px;
+    }
+    #main-body {
+        margin: 0px;
+
     }
 }
