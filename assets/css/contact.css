@@ -23,11 +23,15 @@ main {
 }
 
 #main-body {
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     border-color: lightgray;
     border-width: 20px;
     margin: 30px;
     padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 #Contact {

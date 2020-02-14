@@ -23,10 +23,13 @@ main {
 }
 
 #main-body {
-    background-color: white;
-    opacity: 50%;
+    background-color: rgb(230, 230, 230);
     margin: 30px;
     padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 img {

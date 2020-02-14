@@ -18,41 +18,48 @@ a {
     color: white;
 }
 
-main {
-    background-color:rgb(182, 182, 182);
+main{
+    background-color: rgb(182, 182, 182);
 }
 
 #main-body {
-    background-color: white;
+    background-color:rgb(230, 230, 230);
     margin: 30px;
     padding-top: 25px;
-    padding-right: 20px;
 }
 
-#project {
-    height: 300px;
-    width: 400px;
-    Background-color: rgb(34, 69, 73);
-    border-width: 50px;
-    Border-color: black;
-    float: left;
-    margin:50px;
-    color: white;
-    position: relative;
+h2 {
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 img {
-    height: 300px;
     width: 400px;
+    height: 300px;
     position: absolute;
     top: 0px;
     left: 0px;
+
 }
 
-#imgLabel {
+.col-sm-6 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.project{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(73, 122, 122);
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.imgLabel {
     position: absolute;
     bottom: 0px;
-    background-color: grey;
+    background-color: rgb(40, 82, 83);
     color: white;
     font-size: 20px;
     opacity: 75%;
@@ -69,13 +76,19 @@ footer {
     color: white;
 }
 
-@media screen and (max-width: 1500px) {
-    #project, img, #image {
-        height: 250px;
-        width: 350px;
+@media screen and (max-width: 720px) {
+    .project {
+        height: 200px;
+        width: 300px;
+        margin: 10px;
     }
+
+    img {
+        height: 200px;
+        width: 300px;
+    }
+    
     #main-body {
         margin: 0px;
-
     }
 }
