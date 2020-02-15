@@ -2,7 +2,7 @@
  
 ## Introduction:
 This portfolio was created to provide an online platform to introduce myself and showcase projects I have completed. 
-The website was structured to be compatible on both computer browsers and mobile phones with use of Bootstrap and Media Queries.
+The website was structured to be compatible on both desktop and mobile phone browsers with use of the Bootstrap grid system and Media Queries.
  
 The portfolio can be viewed on: https://shash833.github.io/Shashini-s-Portfolio/
  
