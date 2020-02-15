@@ -20,12 +20,14 @@ a {
 
 main {
     background-color: rgb(182, 182, 182);
+    height: 700px;
 }
 
 #main-body {
     background-color: rgb(230, 230, 230);
     margin: 30px;
     padding-top: 25px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -37,10 +39,8 @@ img {
     height: 230px;
 }
 
-#text {
-    padding-left: 10px;
-    padding-right: 10px;
-    
+.col-sm-3 {
+    text-align: center;
 }
 
 footer {
@@ -53,6 +53,9 @@ footer {
 
 @media screen and (max-width: 770px) {
     #main-body {
-        margin: 0px;
+        margin: 10px;
+    }
+    img {
+        margin: 15px;
     }
 }

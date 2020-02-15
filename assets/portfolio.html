@@ -3,6 +3,7 @@
 
 <head>
     <title> Shashini's Portfolio</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,10 +15,12 @@
     <header>
         <div class="row">
             <div class="col-sm-8">
+                <!--Website heading-->
                 <h1> Shashini Mayadunne </h1>
             </div>
             <div class="col-sm-4">
                 <nav class="nav">
+                    <!--Bootstrap navigation bar-->
                     <a class="nav-link active" href="../index.html">About Me</a>
                     <a class="nav-link" href="#Portfolio">Portfolio</a>
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -27,31 +30,37 @@
     </header>
 
     <main>
-        <section class="container">
+        <div class="container">
+            <!--Bootstrap container-->
             <div class="row">
                 <div class="col-sm-12" id="main-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h2 id="Portfolio"> Portfolio </h2>
                             <!--Subheading = Portfolio-->
+                            <h2 id="Portfolio"> Portfolio </h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class=project>
                                 <!--Link to Bootcamp Prework activity on Scratch-->
-                                <img src="images/agameofcatandmouse.PNG" class="projectImg" />
-                                <div class="imgLabel"> <a href="https://scratch.mit.edu/projects/357044610">A Game of
+                                <img src="images/agameofcatandmouse.PNG" class="projectImg"
+                                    alt=" 'A Game of Cat and Mouse' on Scratch screenshot" />
+                                <p class="imgLabel"> <a href="https://scratch.mit.edu/projects/357044610">A Game of
                                         Cat
-                                        and Mouse - Scratch Project</a></div>
+                                        and Mouse - Scratch Project</a>
+                                </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="project">
                                 <!--Link to HTML/CSS class activity-->
                                 <img src="images/sharks.PNG" class="projectImg" />
-                                <div class="imgLabel"><a href="https://shash833.github.io/Sharks/">Sharks - Practice
-                                        Website</a></div>
+                                <p class="imgLabel">
+                                    <a href="https://shash833.github.io/Sharks/" alt="Sharks website screenshot">Sharks
+                                        - Practice
+                                        Website</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -59,19 +68,21 @@
                         <div class="col-sm-6">
                             <div class="project">
                                 <!--Placeholder for third project-->
-                                <div class="imgLabel"> <a href="#">Project 3 -Coming soon!</a></div>
+                                <p class="imgLabel"> <a href="#">Project 3 -Coming soon!</a>
+                                </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="project">
                                 <!--Placeholder for fourth project-->
-                                <div class="imgLabel"> <a href="#">Project 4 - Coming soon!</a></div>
+                                <p class="imgLabel"> <a href="#">Project 4 - Coming soon!</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 </body>
 <footer>
