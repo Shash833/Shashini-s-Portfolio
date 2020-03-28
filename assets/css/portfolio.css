@@ -1,3 +1,9 @@
+html{    
+    background-color: rgb(182, 182, 182);
+    min-height: 100%;
+    position: relative;
+}
+
 header {
     background-color: rgb(88, 152, 156);
     color: white;
@@ -14,18 +20,21 @@ nav {
     float: right;
 }
 
-a {
+.nav-link {
     color: white;
 }
 
-main{
+main, body {
     background-color: rgb(182, 182, 182);
+    height: auto;
+    padding-bottom: 25px;
 }
 
 #main-body {
     background-color:rgb(230, 230, 230);
     margin: 30px;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 h2 {
@@ -38,33 +47,13 @@ h2 {
     text-align: center;
 }
 
+hr {
+    border-width: 2.5px;
+}
+
 img {
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
-}
-
-.project{
-    width: 400px;
-    height: 300px;
-    background-color: rgb(73, 122, 122);
-    margin: 10px;
-    position: relative;
-}
-
-.imgLabel {
-    position: absolute;
-    bottom: 0px;
-    background-color: rgb(40, 82, 83);
-    color: white;
-    font-size: 20px;
-    opacity: 75%;
-    height: 60px;
     width: 100%;
-    text-align: center;
+    height: 100%;
 }
 
 footer {
@@ -73,22 +62,19 @@ footer {
     height: 40px;
     text-align: center;
     color: white;
+    position: absolute;
+    bottom: 0px;
 }
+
 @media screen and (max-width: 1000px) {
     #main-body {
         margin: 10px;
         padding-right: 20px;
     }
 
-    .project {
+    /* img {
         height: 175px;
         width: 275px;
-        margin: 10px;
-    }
-
-    img {
-        height: 175px;
-        width: 275px;
-    }
+    } */
 
 }

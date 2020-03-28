@@ -1,3 +1,9 @@
+html{    
+    background-color: rgb(182, 182, 182);
+    min-height: 100%;
+    position: relative;
+}
+
 header {
     background-color: rgb(88, 152, 156);
     color: white;
@@ -22,8 +28,10 @@ a {
     height: 700px;
 }
 
-main {
+main, body {
     background-color: rgb(182, 182, 182);
+    height: auto;
+    padding-bottom: 25px;
 }
 
 #main-body {
@@ -32,15 +40,20 @@ main {
     border-width: 20px;
     margin: 30px;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 h2 {
     font-family: 'Cedarville Cursive', cursive;
-    padding-top: 20px;
 }
 
 hr {
     border-width: 2.5px;
+}
+
+#sub-title{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 input {
@@ -63,6 +76,8 @@ footer {
     height: 40px;
     text-align: center;
     color: white;
+    position: absolute;
+    bottom: 0px;
 }
 
 @media screen and (max-width: 770px) {

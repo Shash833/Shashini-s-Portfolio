@@ -1,4 +1,9 @@
-  
+html{    
+    background-color: rgb(182, 182, 182);
+    min-height: 100%;
+    position: relative;
+}
+
 header {
     background-color: rgb(88, 152, 156);
     color: white;
@@ -6,7 +11,7 @@ header {
     padding-top: 25px;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Cedarville Cursive', cursive;
 }
 
@@ -15,13 +20,14 @@ nav {
     float: right;
 }
 
-a {
+.nav-link {
     color: white;
 }
 
-main {
+main, body {
     background-color: rgb(182, 182, 182);
-    height: 700px;
+    height: auto;
+    padding-bottom: 25px;
 }
 
 #main-body {
@@ -31,18 +37,14 @@ main {
     padding-bottom: 30px;
 }
 
-h2 {
-    font-family: 'Cedarville Cursive', cursive;
-}
-
 .col-md-3 {
     text-align: center;
 }
 
 
 img {
-    width: 230px;
-    height: 230px;
+    width: 80%;
+    height: 80%;
 }
 
 footer {
@@ -51,6 +53,8 @@ footer {
     height: 40px;
     text-align: center;
     color: white;
+    position: absolute;
+    bottom: 0px;
 }
 
 @media screen and (max-width: 770px) {
